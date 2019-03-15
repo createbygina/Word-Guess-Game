@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Word Guess Game</title>
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <h1><img alt="hangman" id="image1" src="assets/images/hangman1.png">HANGMAN<img alt="hangman" id="image" src="assets/images/hangman1.png"></h1><img
+      alt="rainbow" src="assets/images/rainbow.png"><br>
+  </div>
+  <div class="card">
+    <div class="card-heading">
+      <h3>GUESS THAT COLOR!</h3>
+    </div>
+    <div class="card-body">
+      <h2 id="chosenWord">"Press any key to get started ☀"</h2>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      Incorrect Letter Bank: <span id="guessedLetter"></span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      Guesses Remaining: <span id="guessesRemaining"></span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      Win Count: <span id="winCount"></span>
+    </div>
+    <div class="card-body">
+      Loss Count: <span id="lossCount"></span>
+    </div>
+  </div>
+  <script src="assets/javascript/game.js">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+</body>
+
+</html>

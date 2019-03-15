@@ -1,0 +1,58 @@
+h1 {
+  background-image: linear-gradient(to left, #fea3aa, #f8b88b, #f8b88b, #f2a2e8, #b2cefe, #f2a2e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.header {
+  text-align: center;
+  background-color: black;
+}
+
+.lead {
+  text-align: center;
+  color: rgb(2, 149, 169);
+  letter-spacing: 3px;
+  font-family: 'Cabin Sketch', cursive;
+  background-color: black;
+}
+
+.card-heading {
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  color: powderblue;
+  background-color: black;
+}
+
+.card {
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  color: #ffe699;
+  background-color: black;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.card-body {
+  text-align: center;
+  background-color: black;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+}
+
+#image {
+  width: 3%;
+  height: 3%;
+}
+
+#image1 {
+  width: 3%;
+  height: 3%;
+  margin-right: 10px;
+}
