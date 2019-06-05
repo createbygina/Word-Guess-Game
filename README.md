@@ -1,6 +1,6 @@
 # Word-Guess-Game
 #### Overview
-Color themed hangman game written in javascript.
+Color themed hangman game written in HTML, CSS, Javascript
 
 #### How to play
 * Press any key to get started, and guess that color!
