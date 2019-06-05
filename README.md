@@ -1,2 +1,10 @@
 # Word-Guess-Game
-Hangman: https://eunhyegina.github.io/Word-Guess-Game/
+#### Overview
+Color themed hangman game written in javascript.
+
+#### How to play
+* Press any key to get started, and guess that color!
+* Number of Guesses Remaining: This number decreases when an incorrect letter is entered.
+* After a win or loss, the game will automatically choose another word to play again.
+
+[Play Hangman](https://eunhyegina.github.io/Word-Guess-Game/)
