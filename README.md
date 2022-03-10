@@ -7,4 +7,4 @@ Color themed hangman game written in HTML, CSS, Javascript
 * Number of Guesses Remaining: This number decreases when an incorrect letter is entered.
 * After a win or loss, the game will automatically choose another word to play again.
 
-[Play Hangman](https://eunhyegina.github.io/Word-Guess-Game/)
+[Play Hangman](https://createbygina.github.io/Word-Guess-Game/)
